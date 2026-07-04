@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "invisesp",
+  "version": "${version}",
+  "name": "InvisESP",
+  "description": "Client-side ESP and particle detection for invisible players (BedWars)",
+  "authors": ["InvisESP"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.invisesp.InvisEspClient"]
+  },
+  "mixins": ["invisesp.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.8.9",
+    "legacy-fabric-api": "*"
+  }
+}

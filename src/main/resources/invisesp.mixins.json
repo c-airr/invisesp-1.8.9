@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.invisesp.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "ParticlePacketMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ChatMessageMixin",
+    "WorldRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
